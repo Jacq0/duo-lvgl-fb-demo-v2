@@ -7,3 +7,4 @@ cd lv_port_linux_frame_buffer
 git submodule update --init --recursive
 ```
 
+**Note:** Patch for V1 contained modifications for the fbtft driver c files, however from a quick look buildroot-v2 already contains these changes. (Also removing the last line breaks it for some reason :/)
